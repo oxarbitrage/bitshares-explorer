@@ -33,6 +33,8 @@
 - [ ] Add cashback/vesting amount to account page http://bitshares-explorer.io:9009/#/accounts/alfredo-worker
 - [ ] Add history ID to last 20 operations of account. This probably need bitshares-core api function.
 - [ ] Add order type to account history table in account page.
+- [ ] In account page the "lifetime member" is hardcoded.
+
 
 
 
