@@ -29,6 +29,9 @@
 - [ ] In assets page make the flags field work.
 - [x] Change issuer to name instead of ID in asset page.
 - [x] Fix bug cashback_balance undefined at some account pages like: http://bitshares-explorer.io:9009/#/accounts/people
+- [ ] Some accounts are not showing the last 20 operations for instance: http://bitshares-explorer.io:9009/#/accounts/alfredo-worker
+- [ ] Add cashback/vesting amount to account page http://bitshares-explorer.io:9009/#/accounts/alfredo-worker
+
 
 
 
