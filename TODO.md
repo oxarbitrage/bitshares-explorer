@@ -27,6 +27,8 @@
 - [x] Change get_asset_holders to get_asset_holders_count in api and add get_asset_holders correctly.
 - [x] In assets page add top holders table of the asset.
 - [ ] In assets page make the flags field work.
+- [x] Change issuer to name instead of ID in asset page.
+
 
 
 
