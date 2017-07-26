@@ -28,6 +28,7 @@
 - [x] In assets page add top holders table of the asset.
 - [ ] In assets page make the flags field work.
 - [x] Change issuer to name instead of ID in asset page.
+- [x] Fix bug cashback_balance undefined at some account pages like: http://bitshares-explorer.io:9009/#/accounts/people
 
 
 
