@@ -36,7 +36,7 @@
 - [ ] In account page the "lifetime member" is hardcoded.
 - [x] Change column order and add operation id in the first place in dashboard.
 - [x] In balances, if balance = 0 don't show in table http://bitshares-explorer.io:9009/#/accounts/1.2.126225
-- [ ] Separete votes sidebar section in voting and commitee.
+- [x] Separete votes sidebar section in voting and commitee.
 - [ ] Create witness page(as workers - link pointing to object).
 - [ ] Create commitee page(as workers - link pointing to object).
 - [ ] Create voting page - get ideas from http://cryptofresh.com/ballots
