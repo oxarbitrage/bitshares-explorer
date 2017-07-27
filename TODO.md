@@ -32,15 +32,12 @@
 - [ ] Some accounts are not showing the last 20 operations for instance: http://bitshares-explorer.io:9009/#/accounts/alfredo-worker
 - [ ] Add cashback/vesting amount to account page http://bitshares-explorer.io:9009/#/accounts/alfredo-worker
 - [x] <s>Add history ID to last 20 operations of account. This probably need bitshares-core api function. </s> Just remove history id from the table by now.
-- [x] Add operation type to account history table in account page.
+- [ ] Add operation type to account history table in account page.
 - [ ] In account page the "lifetime member" is hardcoded.
 - [x] Change column order and add operation id in the first place in dashboard.
 - [x] In balances, if balance = 0 don't show in table http://bitshares-explorer.io:9009/#/accounts/1.2.126225
-
-
-
-
-
-
-
-
+- [ ] Separete votes sidebar section in voting and commitee.
+- [ ] Create witness page(as workers - link pointing to object).
+- [ ] Create commitee page(as workers - link pointing to object).
+- [ ] Create voting page - get ideas from http://cryptofresh.com/ballots
+- [ ] Create markets inside page with price chart and order book.
