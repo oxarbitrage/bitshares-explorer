@@ -54,3 +54,4 @@ List of changes needed to release v1 of http://bitshares-explorer.io
 - [ ] Create documentation of installation of the client app.
 - [ ] Create documentation on how to install the whole thing.
 - [ ] Release working "black and white" client under MIT without theme reference, just the javascript and basic html. This is the version of the explorer the community will be able to fork, themed version will remain private to avoid issues with theme license.  
+- [ ] Review/Improve performance everywhere possible to gain response speed.
