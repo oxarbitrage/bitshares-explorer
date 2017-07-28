@@ -14,7 +14,7 @@ List of changes needed to release v1 of http://bitshares-explorer.io
 - [ ] Make search of top work.
 - [ ] Improve current search page maybe by adding advanced search or something.
 - [x] Remove at least for now the fee charts in the fees page.
-- [ ] Write roadmap with estimated timeframe of a first working version of explorer.
+- [x] Write roadmap with estimated timeframe of a first working version of explorer.
 - [ ] Fix the link to full description is asset page(angular anchor not work, maybe just change for a popup or something
 - [x] Make big commit to syncronize https://github.com/oxarbitrage/bitshares-python-api-backend with local. Done: https://github.com/oxarbitrage/bitshares-python-api-backend/commit/f6f733cefc04c752b33b07ecbd62abdb69ce7d01
 - [ ] Update documentation of bitshares-python-api-backend to reflect postgres and new additions. 
@@ -36,7 +36,7 @@ List of changes needed to release v1 of http://bitshares-explorer.io
 - [x] Add cashback/vesting amount to account page http://bitshares-explorer.io:9009/#/accounts/alfredo-worker
 - [x] <s>Add history ID to last 20 operations of account. This probably need bitshares-core api function. </s> Just remove history id from the table by now.
 - [x] Add operation type to account history table in account page.
-- [ ] In account page the "lifetime member" is hardcoded.
+- [x] In account page the "lifetime member" is hardcoded.
 - [x] Change column order and add operation id in the first place in dashboard.
 - [x] In balances, if balance = 0 don't show in table http://bitshares-explorer.io:9009/#/accounts/1.2.126225
 - [x] Separete votes sidebar section in voting and commitee.
