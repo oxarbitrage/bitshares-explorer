@@ -1,13 +1,16 @@
 # TODO LIST
 
+List of changes needed to release v1 of http://bitshares-explorer.io
+
 - [x] Urls to assets need to work with name, not only as id. http://bitshares-explorer.io:9009/#/assets/BTS 
 - [x] Create python function to check if string is valid object id or name.
 - [ ] In dashboard check data of the 6 indicators. I know worker is dummy data, fix and check the rest.
 - [ ] In dashboard do all charting with real data, dummy data in all charts by now, just names are changed for design purposes.
 - [x] Cut the description or do something for when it is to long example here: http://bitshares-explorer.io:9009/#/assets/1.3.822
 - [x] Add markets to asset page.
-- [ ] When user active and owner are accounts show names instead of ids. http://bitshares-explorer.io:9009/#/accounts/alfredo-worker
-- [ ] Reset countrer after truncate in database python files.
+- [ ] Assets by name not working: http://bitshares-explorer.io:9009/#/assets/USD 
+- [x] When user active and owner are accounts show names instead of ids. http://bitshares-explorer.io:9009/#/accounts/alfredo-worker
+- [x] Reset countrer after truncate in database python files.
 - [ ] Make search of top work.
 - [ ] Improve current search page maybe by adding advanced search or something.
 - [x] Remove at least for now the fee charts in the fees page.
@@ -18,18 +21,18 @@
 - [x] Make full list of calls from the api with examples to add to documentation
 - [ ] Call orders, limit orders, votes in the account page header. See if that is the most relevant data, change or add real values.
 - [ ] Change the hardcoded number of workers at get_workers api call.
-- [ ] Clean and publish angular explorer front end.
+- [x] Clean and publish angular explorer front end to private repo.
 - [x] Publish this list of explorer TODO to repo.
-- [ ] Make orders column work in account page balances section
+- [ ] Make orders column work in account page balances section.
 - [x] In the account page, the general info section; registrar and cashback are always empty.
-- [ ] Add angular google analytics propertly.
+- [ ] Add angular google analytics propertly to themed version.
 - [x] Add holders count field to asset info section of asset page.
 - [x] Change get_asset_holders to get_asset_holders_count in api and add get_asset_holders correctly.
 - [x] In assets page add top holders table of the asset.
 - [ ] In assets page make the flags field work.
 - [x] Change issuer to name instead of ID in asset page.
 - [x] Fix bug cashback_balance undefined at some account pages like: http://bitshares-explorer.io:9009/#/accounts/people
-- [ ] Some accounts are not showing the last 20 operations for instance: http://bitshares-explorer.io:9009/#/accounts/alfredo-worker
+- [x] Some accounts are not showing the last 20 operations for instance: http://bitshares-explorer.io:9009/#/accounts/alfredo-worker
 - [x] Add cashback/vesting amount to account page http://bitshares-explorer.io:9009/#/accounts/alfredo-worker
 - [x] <s>Add history ID to last 20 operations of account. This probably need bitshares-core api function. </s> Just remove history id from the table by now.
 - [x] Add operation type to account history table in account page.
@@ -37,9 +40,17 @@
 - [x] Change column order and add operation id in the first place in dashboard.
 - [x] In balances, if balance = 0 don't show in table http://bitshares-explorer.io:9009/#/accounts/1.2.126225
 - [x] Separete votes sidebar section in voting and commitee.
+- [ ] Do some fixes in the workers page, right now showing all workers. Separate in 2 tables: expired and current. Inside current: active - inactive.
 - [ ] Create witness page(as workers - link pointing to object).
 - [ ] Create commitee page(as workers - link pointing to object).
 - [ ] Create voting page - get ideas from http://cryptofresh.com/ballots
 - [ ] Create markets inside page with price chart and order book.
 - [ ] Remove the charts section from sidebar.
 - [ ] Create function(s) normalize numbers and call it everywhere needed from the javascript.
+- [x] Upgrade oxarbitrage account to paid and create private repo bitshares-explorer.io. Upload theme and client code to this repo.
+- [ ] Cold storage of old data. Connect to a full node. Implement pagination in client. Surfers should be able to see all history if they request.
+- [ ] Real time update of operations in the account page.
+- [ ] Work in responsive details, in some screens some stuff don't look very good. Recommended resolution until this is fixed is 1600x900.
+- [ ] Create documentation of installation of the client app.
+- [ ] Create documentation on how to install the whole thing.
+- [ ] Release working "black and white" client under MIT without theme reference, just the javascript and basic html. This is the version of the explorer the community will be able to fork, themed version will remain private to avoid issues with theme license.  
