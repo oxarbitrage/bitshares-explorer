@@ -1,6 +1,7 @@
 ## Roadmap to version 1
 
 Date: 2017-07-28
+
 Author: oxarbitrage
 
 Roadmap to version 1 is simply the time to finish the TODO list:
@@ -18,4 +19,5 @@ Additional bugs/fixes/additions found by myself or by any other will be trated a
 ### Calendar
 
 2017 - 07 - 28 : Work start.
+
 2017 - 08 - 28 : Work end. 
