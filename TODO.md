@@ -29,7 +29,7 @@ List of changes needed to release v1 of http://bitshares-explorer.io
 - [x] Add holders count field to asset info section of asset page.
 - [x] Change get_asset_holders to get_asset_holders_count in api and add get_asset_holders correctly.
 - [x] In assets page add top holders table of the asset.
-- [ ] In assets page make the flags field work.
+- [x] <s>In assets page make the flags field work.</s> Changed for more relevant fields(acc fees, fee pool and asset type).
 - [x] Change issuer to name instead of ID in asset page.
 - [x] Fix bug cashback_balance undefined at some account pages like: http://bitshares-explorer.io:9009/#/accounts/people
 - [x] Some accounts are not showing the last 20 operations for instance: http://bitshares-explorer.io:9009/#/accounts/alfredo-worker
