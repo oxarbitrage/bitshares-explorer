@@ -23,7 +23,7 @@ List of changes needed to release v1 of http://bitshares-explorer.io
 - [ ] Change the hardcoded number of workers at get_workers api call.
 - [x] Clean and publish angular explorer front end to private repo.
 - [x] Publish this list of explorer TODO to repo.
-- [ ] Make orders column work in account page balances section.
+- [x] Make orders column work in account page balances section.
 - [x] In the account page, the general info section; registrar and cashback are always empty.
 - [ ] Add angular google analytics propertly to themed version.
 - [x] Add holders count field to asset info section of asset page.
@@ -55,3 +55,4 @@ List of changes needed to release v1 of http://bitshares-explorer.io
 - [ ] Create documentation on how to install the whole thing.
 - [ ] Release working "black and white" client under MIT without theme reference, just the javascript and basic html. This is the version of the explorer the community will be able to fork, themed version will remain private to avoid issues with theme license.  
 - [ ] Review/Improve performance everywhere possible to gain response speed.
+
