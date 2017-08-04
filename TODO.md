@@ -41,7 +41,7 @@ List of changes needed to release v1 of http://bitshares-explorer.io
 - [x] In balances, if balance = 0 don't show in table http://bitshares-explorer.io:9009/#/accounts/1.2.126225
 - [x] Separete votes sidebar section in voting and commitee.
 - [ ] Do some fixes in the workers page, right now showing all workers. Separate in 2 tables: expired and current. Inside current: active - inactive.
-- [ ] Create witness page(as workers - link pointing to object).
+- [x] Create witness page(as workers - link pointing to object).
 - [ ] Create commitee page(as workers - link pointing to object).
 - [ ] Create voting page - get ideas from http://cryptofresh.com/ballots
 - [ ] Create markets inside page with price chart and order book.
