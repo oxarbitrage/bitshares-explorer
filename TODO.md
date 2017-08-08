@@ -25,7 +25,7 @@ List of changes needed to release v1 of http://bitshares-explorer.io
 - [x] Publish this list of explorer TODO to repo.
 - [x] Make orders column work in account page balances section.
 - [x] In the account page, the general info section; registrar and cashback are always empty.
-- [ ] Add angular google analytics propertly to themed version.
+- [x] Add angular google analytics propertly to themed version.
 - [x] Add holders count field to asset info section of asset page.
 - [x] Change get_asset_holders to get_asset_holders_count in api and add get_asset_holders correctly.
 - [x] In assets page add top holders table of the asset.
