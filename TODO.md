@@ -42,7 +42,7 @@ List of changes needed to release v1 of http://bitshares-explorer.io
 - [x] Separete votes sidebar section in voting and commitee.
 - [x] Do some fixes in the workers page, right now showing all workers. Separate in 2 tables: expired and current. Inside current: active - inactive.
 - [x] Create witness page(as workers - link pointing to object).
-- [ ] Create commitee page(as workers - link pointing to object).
+- [x] Create commitee page(as workers - link pointing to object).
 - [ ] Create voting page - get ideas from http://cryptofresh.com/ballots
 - [ ] Create markets inside page with price chart and order book.
 - [ ] Remove the charts section from sidebar.
