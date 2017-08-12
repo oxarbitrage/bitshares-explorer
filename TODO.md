@@ -20,7 +20,7 @@ List of changes needed to release v1 of http://bitshares-explorer.io
 - [ ] Update documentation of bitshares-python-api-backend to reflect postgres and new additions. 
 - [x] Make full list of calls from the api with examples to add to documentation
 - [x] Call orders, limit orders, votes in the account page header. See if that is the most relevant data, change or add real values.
-- [ ] Change the hardcoded number of workers at get_workers api call.
+- [x] Change the hardcoded number of workers at get_workers api call.
 - [x] Clean and publish angular explorer front end to private repo.
 - [x] Publish this list of explorer TODO to repo.
 - [x] Make orders column work in account page balances section.
