@@ -44,8 +44,8 @@ List of changes needed to release v1 of http://bitshares-explorer.io
 - [x] Create witness page(as workers - link pointing to object).
 - [x] Create commitee page(as workers - link pointing to object).
 - [ ] Create voting page - get ideas from http://cryptofresh.com/ballots
-- [ ] Create markets inside page with price chart and order book.
-- [ ] Remove the charts section from sidebar.
+- [x] Create markets inside page with price chart and order book.
+- [x] Remove the charts section from sidebar.
 - [ ] Create function(s) normalize numbers and call it everywhere needed from the javascript.
 - [x] Upgrade oxarbitrage account to paid and create private repo bitshares-explorer.io. Upload theme and client code to this repo.
 - [ ] Cold storage of old data. Connect to a full node. Implement pagination in client. Surfers should be able to see all history if they request.
