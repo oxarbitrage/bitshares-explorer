@@ -15,7 +15,7 @@ List of changes needed to release v1 of http://bitshares-explorer.io
 - [ ] Improve current search page maybe by adding advanced search or something.
 - [x] Remove at least for now the fee charts in the fees page.
 - [x] Write roadmap with estimated timeframe of a first working version of explorer.
-- [ ] Fix the link to full description in asset page(angular anchor not work, maybe just change for a popup or something
+- [x] Fix the link to full description in asset page(angular anchor not work, maybe just change for a popup or something
 - [x] Make big commit to syncronize https://github.com/oxarbitrage/bitshares-python-api-backend with local. Done: https://github.com/oxarbitrage/bitshares-python-api-backend/commit/f6f733cefc04c752b33b07ecbd62abdb69ce7d01
 - [ ] Update documentation of bitshares-python-api-backend to reflect postgres and new additions. 
 - [x] Make full list of calls from the api with examples to add to documentation
@@ -43,7 +43,7 @@ List of changes needed to release v1 of http://bitshares-explorer.io
 - [x] Do some fixes in the workers page, right now showing all workers. Separate in 2 tables: expired and current. Inside current: active - inactive.
 - [x] Create witness page(as workers - link pointing to object).
 - [x] Create commitee page(as workers - link pointing to object).
-- [ ] Create voting page - get ideas from http://cryptofresh.com/ballots
+- [x] Create voting page - get ideas from http://cryptofresh.com/ballots
 - [x] Create markets inside page with price chart and order book.
 - [x] Remove the charts section from sidebar.
 - [ ] Create function(s) normalize numbers and call it everywhere needed from the javascript.
