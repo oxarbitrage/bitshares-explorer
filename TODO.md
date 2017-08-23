@@ -5,7 +5,7 @@ List of changes needed to release v1 of http://bitshares-explorer.io
 - [x] Urls to assets need to work with name, not only as id. http://bitshares-explorer.io:9009/#/assets/BTS 
 - [x] Create python function to check if string is valid object id or name.
 - [x] In dashboard check data of the 6 indicators. I know worker is dummy data, fix and check the rest.
-- [ ] In dashboard do all charting with real data, dummy data in all charts by now, just names are changed for design purposes.
+- [x] In dashboard do all charting with real data, dummy data in all charts by now, just names are changed for design purposes.
 - [x] Cut the description or do something for when it is to long example here: http://bitshares-explorer.io:9009/#/assets/1.3.822
 - [x] Add markets to asset page.
 - [x] Assets by name not working: http://bitshares-explorer.io:9009/#/assets/USD 
@@ -49,7 +49,7 @@ List of changes needed to release v1 of http://bitshares-explorer.io
 - [ ] Create function(s) normalize numbers and call it everywhere needed from the javascript.
 - [x] Upgrade oxarbitrage account to paid and create private repo bitshares-explorer.io. Upload theme and client code to this repo.
 - [ ] Cold storage of old data. Connect to a full node. Implement pagination in client. Surfers should be able to see all history if they request.
-- [ ] Real time update of operations in the account page.
+- [x] Real time update of operations in the account page.
 - [ ] Work in responsive details, in some screens some stuff don't look very good. Recommended resolution until this is fixed is 1600x900.
 - [ ] Create documentation of installation of the client app.
 - [ ] Create documentation on how to install the whole thing.
