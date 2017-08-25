@@ -11,8 +11,8 @@ List of changes needed to release v1 of http://bitshares-explorer.io
 - [x] Assets by name not working: http://bitshares-explorer.io:9009/#/assets/USD 
 - [x] When user active and owner are accounts show names instead of ids. http://bitshares-explorer.io:9009/#/accounts/alfredo-worker
 - [x] Reset countrer after truncate in database python files.
-- [ ] Make search of top work.
-- [ ] Improve current search page maybe by adding advanced search or something.
+- [x] Make search of top work.
+- [x] Improve current search page maybe by adding advanced search or something.
 - [x] Remove at least for now the fee charts in the fees page.
 - [x] Write roadmap with estimated timeframe of a first working version of explorer.
 - [x] Fix the link to full description in asset page(angular anchor not work, maybe just change for a popup or something
