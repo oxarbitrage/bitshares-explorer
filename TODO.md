@@ -46,11 +46,11 @@ List of changes needed to release v1 of http://bitshares-explorer.io
 - [x] Create voting page - get ideas from http://cryptofresh.com/ballots
 - [x] Create markets inside page with price chart and order book.
 - [x] Remove the charts section from sidebar.
-- [ ] Create function(s) normalize numbers and call it everywhere needed from the javascript.
+- [x] Create function(s) normalize numbers and call it everywhere needed from the javascript.
 - [x] Upgrade oxarbitrage account to paid and create private repo bitshares-explorer.io. Upload theme and client code to this repo.
 - [ ] Cold storage of old data. Connect to a full node. Implement pagination in client. Surfers should be able to see all history if they request.
 - [x] Real time update of operations in the account page.
-- [ ] Work in responsive details, in some screens some stuff don't look very good. Recommended resolution until this is fixed is 1600x900.
+- [x] Work in responsive details, in some screens some stuff don't look very good. Recommended resolution until this is fixed is 1600x900.
 - [ ] Create documentation of installation of the client app.
 - [ ] Create documentation on how to install the whole thing.
 - [ ] Release working "black and white" client under MIT without theme reference, just the javascript and basic html. This is the version of the explorer the community will be able to fork, themed version will remain private to avoid issues with theme license.  
