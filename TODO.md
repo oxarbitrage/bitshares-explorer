@@ -17,7 +17,7 @@ List of changes needed to release v1 of http://bitshares-explorer.io
 - [x] Write roadmap with estimated timeframe of a first working version of explorer.
 - [x] Fix the link to full description in asset page(angular anchor not work, maybe just change for a popup or something
 - [x] Make big commit to syncronize https://github.com/oxarbitrage/bitshares-python-api-backend with local. Done: https://github.com/oxarbitrage/bitshares-python-api-backend/commit/f6f733cefc04c752b33b07ecbd62abdb69ce7d01
-- [ ] Update documentation of bitshares-python-api-backend to reflect postgres and new additions. 
+- [x] Update documentation of bitshares-python-api-backend to reflect postgres and new additions. 
 - [x] Make full list of calls from the api with examples to add to documentation
 - [x] Call orders, limit orders, votes in the account page header. See if that is the most relevant data, change or add real values.
 - [x] Change the hardcoded number of workers at get_workers api call.
